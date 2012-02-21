@@ -20,11 +20,11 @@
 		50CE061D14F3F08400682BBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50CE061F14F3F08400682BBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50CE062114F3F08400682BBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		50CE062514F3F08400682BBC /* weixinlabel-Info.plist */ = {isa = PBXFileReference; path = "weixinlabel-Info.plist"; sourceTree = "<group>"; };
+		50CE062514F3F08400682BBC /* weixinlabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "weixinlabel-Info.plist"; sourceTree = "<group>"; };
 		50CE062714F3F08400682BBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50CE062914F3F08400682BBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		50CE062B14F3F08400682BBC /* weixinlabel-Prefix.pch */ = {isa = PBXFileReference; path = "weixinlabel-Prefix.pch"; sourceTree = "<group>"; };
-		50CE062C14F3F08400682BBC /* DIWUAppDelegate.h */ = {isa = PBXFileReference; path = DIWUAppDelegate.h; sourceTree = "<group>"; };
+		50CE062B14F3F08400682BBC /* weixinlabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weixinlabel-Prefix.pch"; sourceTree = "<group>"; };
+		50CE062C14F3F08400682BBC /* DIWUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIWUAppDelegate.h; sourceTree = "<group>"; };
 		50CE062D14F3F08400682BBC /* DIWUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIWUAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
