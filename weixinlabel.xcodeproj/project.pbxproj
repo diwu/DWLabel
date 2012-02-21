@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50CE061E14F3F08400682BBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE061D14F3F08400682BBC /* UIKit.framework */; };
+		50CE062014F3F08400682BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE061F14F3F08400682BBC /* Foundation.framework */; };
+		50CE062214F3F08400682BBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE062114F3F08400682BBC /* CoreGraphics.framework */; };
+		50CE062814F3F08400682BBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50CE062614F3F08400682BBC /* InfoPlist.strings */; };
+		50CE062A14F3F08400682BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE062914F3F08400682BBC /* main.m */; };
+		50CE062E14F3F08400682BBC /* DIWUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE062D14F3F08400682BBC /* DIWUAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50CE061914F3F08400682BBC /* weixinlabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weixinlabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CE061D14F3F08400682BBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50CE061F14F3F08400682BBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50CE062114F3F08400682BBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50CE062514F3F08400682BBC /* weixinlabel-Info.plist */ = {isa = PBXFileReference; path = "weixinlabel-Info.plist"; sourceTree = "<group>"; };
+		50CE062714F3F08400682BBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50CE062914F3F08400682BBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50CE062B14F3F08400682BBC /* weixinlabel-Prefix.pch */ = {isa = PBXFileReference; path = "weixinlabel-Prefix.pch"; sourceTree = "<group>"; };
+		50CE062C14F3F08400682BBC /* DIWUAppDelegate.h */ = {isa = PBXFileReference; path = DIWUAppDelegate.h; sourceTree = "<group>"; };
+		50CE062D14F3F08400682BBC /* DIWUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIWUAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50CE061614F3F08400682BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CE061E14F3F08400682BBC /* UIKit.framework in Frameworks */,
+				50CE062014F3F08400682BBC /* Foundation.framework in Frameworks */,
+				50CE062214F3F08400682BBC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50CE060E14F3F08400682BBC = {
+			isa = PBXGroup;
+			children = (
+				50CE062314F3F08400682BBC /* weixinlabel */,
+				50CE061C14F3F08400682BBC /* Frameworks */,
+				50CE061A14F3F08400682BBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50CE061A14F3F08400682BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50CE061914F3F08400682BBC /* weixinlabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50CE061C14F3F08400682BBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50CE061D14F3F08400682BBC /* UIKit.framework */,
+				50CE061F14F3F08400682BBC /* Foundation.framework */,
+				50CE062114F3F08400682BBC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50CE062314F3F08400682BBC /* weixinlabel */ = {
+			isa = PBXGroup;
+			children = (
+				50CE062C14F3F08400682BBC /* DIWUAppDelegate.h */,
+				50CE062D14F3F08400682BBC /* DIWUAppDelegate.m */,
+				50CE062414F3F08400682BBC /* Supporting Files */,
+			);
+			path = weixinlabel;
+			sourceTree = "<group>";
+		};
+		50CE062414F3F08400682BBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50CE062514F3F08400682BBC /* weixinlabel-Info.plist */,
+				50CE062614F3F08400682BBC /* InfoPlist.strings */,
+				50CE062914F3F08400682BBC /* main.m */,
+				50CE062B14F3F08400682BBC /* weixinlabel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50CE061814F3F08400682BBC /* weixinlabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CE063114F3F08400682BBC /* Build configuration list for PBXNativeTarget "weixinlabel" */;
+			buildPhases = (
+				50CE061514F3F08400682BBC /* Sources */,
+				50CE061614F3F08400682BBC /* Frameworks */,
+				50CE061714F3F08400682BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weixinlabel;
+			productName = weixinlabel;
+			productReference = 50CE061914F3F08400682BBC /* weixinlabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50CE061014F3F08400682BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DIWU;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 50CE061314F3F08400682BBC /* Build configuration list for PBXProject "weixinlabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50CE060E14F3F08400682BBC;
+			productRefGroup = 50CE061A14F3F08400682BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50CE061814F3F08400682BBC /* weixinlabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50CE061714F3F08400682BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CE062814F3F08400682BBC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50CE061514F3F08400682BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CE062A14F3F08400682BBC /* main.m in Sources */,
+				50CE062E14F3F08400682BBC /* DIWUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50CE062614F3F08400682BBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50CE062714F3F08400682BBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50CE062F14F3F08400682BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50CE063014F3F08400682BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50CE063214F3F08400682BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weixinlabel/weixinlabel-Prefix.pch";
+				INFOPLIST_FILE = "weixinlabel/weixinlabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50CE063314F3F08400682BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weixinlabel/weixinlabel-Prefix.pch";
+				INFOPLIST_FILE = "weixinlabel/weixinlabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50CE061314F3F08400682BBC /* Build configuration list for PBXProject "weixinlabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CE062F14F3F08400682BBC /* Debug */,
+				50CE063014F3F08400682BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50CE063114F3F08400682BBC /* Build configuration list for PBXNativeTarget "weixinlabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CE063214F3F08400682BBC /* Debug */,
+				50CE063314F3F08400682BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50CE061014F3F08400682BBC /* Project object */;
+}
