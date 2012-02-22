@@ -17,7 +17,7 @@
 
 @implementation DWLabel
 
-#pragma mark - Override some original methods
+#pragma mark - Override some original UILabel methods
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -50,11 +50,15 @@
 }
 
 - (void) copy: (id) sender {
-    NSLog(@"Copy handler, label: %@.", self.text);
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Alert" message:@"Write your own implementation of the copy: method based on your needs." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alertView show];
+    [alertView release];
 }
 
 - (void) delete: (id) sender {
-    NSLog(@"Delete handler, label: %@.", self.text);
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Alert" message:@"Write your own implementation of the delete: method based on your needs." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alertView show];
+    [alertView release];
 }
 
 #pragma mark - Touch events handling

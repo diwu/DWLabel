@@ -62,6 +62,7 @@
     self.chatBubbleImage = [[UIImage imageNamed:@"weixin"] resizableImageWithCapInsets:UIEdgeInsetsMake(27, 29, 26, 28)];
     
     UIImageView *tmpImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 100, 155, 54)];
+    tmpImageView.userInteractionEnabled = YES;
     self.firstImageView = tmpImageView;
     [tmpImageView release];
     self.firstImageView.image = self.chatBubbleImage;
@@ -75,6 +76,7 @@
     [self.view addSubview:self.firstImageView];
     
     tmpImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 200, 180, 54)];
+    tmpImageView.userInteractionEnabled = YES;
     self.secondImageView = tmpImageView;
     [tmpImageView release];
     self.secondImageView.image = self.chatBubbleImage;
