@@ -67,7 +67,7 @@
     [self.firstImageView addSubview:self.regularLabel];
     [self.view addSubview:self.firstImageView];
     
-    tmpImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 200, 260, 54)];
+    tmpImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 250, 260, 54)];
     tmpImageView.userInteractionEnabled = YES;
     self.secondImageView = tmpImageView;
     [tmpImageView release];
