@@ -10,6 +10,8 @@
 
 ## How To Use
 
+Drop the **DWLabel** .h and .m files into your own project. Try some code like this:
+
     DWLabel *tmpDWLabel = [[DWLabel alloc] initWithFrame:CGRectMake(18, 0, 260, 54)];
     self.dwLabel = tmpDWLabel;
     [tmpDWLabel release];
