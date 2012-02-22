@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50015F0214F4F0AD00733C83 /* DWLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50015F0114F4F0AD00733C83 /* DWLabel.m */; };
 		50CE061E14F3F08400682BBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE061D14F3F08400682BBC /* UIKit.framework */; };
 		50CE062014F3F08400682BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE061F14F3F08400682BBC /* Foundation.framework */; };
 		50CE062214F3F08400682BBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE062114F3F08400682BBC /* CoreGraphics.framework */; };
 		50CE062814F3F08400682BBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50CE062614F3F08400682BBC /* InfoPlist.strings */; };
 		50CE062A14F3F08400682BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE062914F3F08400682BBC /* main.m */; };
 		50CE062E14F3F08400682BBC /* DIWUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE062D14F3F08400682BBC /* DIWUAppDelegate.m */; };
+		50CE063714F3F81E00682BBC /* DIWURootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE063614F3F81E00682BBC /* DIWURootViewController.m */; };
+		50CE064414F3FA0700682BBC /* weixin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50CE064314F3FA0700682BBC /* weixin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50015F0014F4F0AD00733C83 /* DWLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWLabel.h; sourceTree = "<group>"; };
+		50015F0114F4F0AD00733C83 /* DWLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWLabel.m; sourceTree = "<group>"; };
 		50CE061914F3F08400682BBC /* weixinlabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weixinlabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CE061D14F3F08400682BBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50CE061F14F3F08400682BBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -26,6 +31,9 @@
 		50CE062B14F3F08400682BBC /* weixinlabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weixinlabel-Prefix.pch"; sourceTree = "<group>"; };
 		50CE062C14F3F08400682BBC /* DIWUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIWUAppDelegate.h; sourceTree = "<group>"; };
 		50CE062D14F3F08400682BBC /* DIWUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIWUAppDelegate.m; sourceTree = "<group>"; };
+		50CE063514F3F81E00682BBC /* DIWURootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIWURootViewController.h; sourceTree = "<group>"; };
+		50CE063614F3F81E00682BBC /* DIWURootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIWURootViewController.m; sourceTree = "<group>"; };
+		50CE064314F3FA0700682BBC /* weixin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,9 +50,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50015EFE14F4F09000733C83 /* DWLabel */ = {
+			isa = PBXGroup;
+			children = (
+				50015F0014F4F0AD00733C83 /* DWLabel.h */,
+				50015F0114F4F0AD00733C83 /* DWLabel.m */,
+			);
+			name = DWLabel;
+			sourceTree = "<group>";
+		};
 		50CE060E14F3F08400682BBC = {
 			isa = PBXGroup;
 			children = (
+				50015EFE14F4F09000733C83 /* DWLabel */,
+				50CE064014F3F9EE00682BBC /* PNG */,
+				50CE063414F3F7F400682BBC /* Root View Controller */,
 				50CE062314F3F08400682BBC /* weixinlabel */,
 				50CE061C14F3F08400682BBC /* Frameworks */,
 				50CE061A14F3F08400682BBC /* Products */,
@@ -88,6 +108,23 @@
 				50CE062B14F3F08400682BBC /* weixinlabel-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50CE063414F3F7F400682BBC /* Root View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50CE063514F3F81E00682BBC /* DIWURootViewController.h */,
+				50CE063614F3F81E00682BBC /* DIWURootViewController.m */,
+			);
+			name = "Root View Controller";
+			sourceTree = "<group>";
+		};
+		50CE064014F3F9EE00682BBC /* PNG */ = {
+			isa = PBXGroup;
+			children = (
+				50CE064314F3FA0700682BBC /* weixin@2x.png */,
+			);
+			name = PNG;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50CE062814F3F08400682BBC /* InfoPlist.strings in Resources */,
+				50CE064414F3FA0700682BBC /* weixin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +192,8 @@
 			files = (
 				50CE062A14F3F08400682BBC /* main.m in Sources */,
 				50CE062E14F3F08400682BBC /* DIWUAppDelegate.m in Sources */,
+				50CE063714F3F81E00682BBC /* DIWURootViewController.m in Sources */,
+				50015F0214F4F0AD00733C83 /* DWLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +295,7 @@
 				50CE063314F3F08400682BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

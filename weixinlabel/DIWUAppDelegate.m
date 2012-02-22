@@ -7,6 +7,7 @@
 //
 
 #import "DIWUAppDelegate.h"
+#import "DIWURootViewController.h"
 
 @implementation DIWUAppDelegate
 
@@ -23,6 +24,11 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    DIWURootViewController *tmpViewController = [[DIWURootViewController alloc] init];
+    self.window.rootViewController = tmpViewController;
+    [tmpViewController release];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
