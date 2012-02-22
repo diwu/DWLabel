@@ -1,11 +1,3 @@
-//
-//  DIWUAppDelegate.m
-//  weixinlabel
-//
-//  Created by Di Wu on 2/21/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
-
 #import "DIWUAppDelegate.h"
 #import "DIWURootViewController.h"
 

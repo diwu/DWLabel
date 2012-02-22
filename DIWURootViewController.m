@@ -1,11 +1,3 @@
-//
-//  DIWURootViewController.m
-//  weixinlabel
-//
-//  Created by Di Wu on 2/22/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
-
 #import "DIWURootViewController.h"
 #import "DWLabel.h"
 
@@ -75,16 +67,16 @@
     [self.firstImageView addSubview:self.regularLabel];
     [self.view addSubview:self.firstImageView];
     
-    tmpImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 200, 180, 54)];
+    tmpImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 200, 260, 54)];
     tmpImageView.userInteractionEnabled = YES;
     self.secondImageView = tmpImageView;
     [tmpImageView release];
     self.secondImageView.image = self.chatBubbleImage;
-    DWLabel *tmpDWLabel = [[DWLabel alloc] initWithFrame:CGRectMake(18, 0, 180, 54)];
+    DWLabel *tmpDWLabel = [[DWLabel alloc] initWithFrame:CGRectMake(18, 0, 260, 54)];
     self.dwLabel = tmpDWLabel;
     [tmpDWLabel release];
     self.dwLabel.backgroundColor = [UIColor clearColor];
-    self.dwLabel.text = @"tappable DWLabel";
+    self.dwLabel.text = @"Try long press this DWLabel";
     self.dwLabel.font = [UIFont systemFontOfSize:18];
     [self.secondImageView addSubview:self.dwLabel];
     [self.view addSubview:self.secondImageView];
